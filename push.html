@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/push.css" />
+    <title>Push</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="backBtn"><i class="fas fa-chevron-left"></i></div>
+        <div class="pushTitle">推推</div>
+      </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <div class="top">
+          <div class="image"></div>
+          <div class="content">
+            <div class="name"></div>
+            <div class="intro"></div>
+            <div class="subscribe">訂閱更新通知</div>
+          </div>
+        </div>
+        <div class="middle">
+          <div class="middleTitle">資訊</div>
+          <div class="middleBox">
+            <div class="left">
+              <div class="item">
+                <div class="itemName">版本:</div>
+                <div class="itemData appversion"></div>
+              </div>
+              <div class="item">
+                <div class="itemName">更新日期:</div>
+                <div class="itemData appdate"></div>
+              </div>
+              <div class="item">
+                <div class="itemName">URL:</div>
+                <div class="itemData appurl"></div>
+              </div>
+            </div>
+            <a class="gotoBtn">進入官網</a>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="downloadBtn">
+            <div class="icon"></div>
+            <div class="text">
+              Apple iOS 下载
+            </div>
+          </div>
+          <div class="downloadBtn">
+            <div class="icon"></div>
+            <div class="text">
+              Web 直接下载
+            </div>
+          </div>
+          <div class="downloadBtn">
+            <div class="icon"></div>
+            <div class="text">
+              Android 下载
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
